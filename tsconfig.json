@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", "lib": ["ES2022", "DOM", "DOM.Iterable"], "module": "ESNext", "moduleResolution": "bundler",
+    "jsx": "react", "strict": true, "noEmit": true, "skipLibCheck": true, "esModuleInterop": true,
+    "types": ["vitest/globals", "node"], "isolatedModules": true, "resolveJsonModule": true
+  },
+  "include": ["src", "tests"]
+}
